@@ -1,3 +1,8 @@
+// Given an m x n integer matrix, if an element is 0, set its entire row and column to 0's.
+// You must do it in place.
+// problem link:
+// https://leetcode.com/problems/set-matrix-zeroes/
+
 class Solution {
     public void setZeroes(int[][] matrix) {
         int col0 = 1, rows = matrix.length, cols = matrix[0].length;
